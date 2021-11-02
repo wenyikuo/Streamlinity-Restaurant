@@ -1,0 +1,61 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.table-wrapper {
+  margin-left: 100px;
+}
+
+.hide-table {
+  display: none;
+}
+
+.hide-title {
+  display: none;
+}
+
+.show-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.show-table {
+  border-collapse: collapse;
+}
+
+.name,
+.description,
+.head {
+  border: 1px #dddddd solid;
+  text-align: left;
+}
+
+.description {
+  width: 600px;
+  height: 60px;
+  font-size: 16px;
+}
+
+.name {
+  width: 200px;
+  height: 60px;
+  font-size: 16px;
+}
+
+.head {
+  height: 35px;
+}
+
+.body-container:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table-wrapper {
+  width: 40%;
+}
+
+@media (max-width: 768px) {
+  .table-wrapper {
+    width: 80%;
+  }
+}
