@@ -21,5 +21,3 @@ git push origin
 ```sh
 git branch
 ```
-
-> > > > > > > main
