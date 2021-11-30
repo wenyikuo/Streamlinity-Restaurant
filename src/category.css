@@ -7,7 +7,7 @@ li:hover {
   list-style: none;
   display: inline-block;
   border: 1px black solid;
-  padding: 3px;
+  padding: 4px;
 }
 
 .category-wrapper {
