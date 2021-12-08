@@ -33,7 +33,7 @@ class App extends React.Component {
     // console.log(this.state.category);
     return (
       <div className="wrapper">
-        <div className="menu">Menu Categorie</div>
+        <div className="menu">Menu Categories</div>
         <Category
           category={this.state.category}
           handleRenderMenu={this.handleRenderMenu}
