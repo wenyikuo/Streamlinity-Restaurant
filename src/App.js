@@ -4,6 +4,7 @@ import Category from './Category';
 import Menu from './Menu';
 import './app.css';
 
+//asdasd
 class App extends React.Component {
   constructor(props) {
     super(props);
